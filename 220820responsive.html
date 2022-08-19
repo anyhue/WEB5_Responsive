@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>데미안</title>
+    <style>
+      .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      div{
+        padding: 12px;
+      }
+      .grid2{
+        border: 1px solid black;
+      }
+      .grid3{
+        border: 1px solid black;
+        border-left: none;
+      }
+      h2{
+        text-align: center;
+      }
+
+      @media (max-width: 400px) {
+        .grid {
+          display: block;
+        }
+        .grid2{
+          border: 1px solid black;
+        }
+        .grid3{
+          border: 1px solid black;
+          border-top: none;
+        }
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <h2>데미안</h2>
+    <div class="grid">
+    <div class="grid2">당시에 나는 흔히들 말하는 대로 우연에 의해서 특이한 도피처를 찾아냈다. 그러나 그런 우연이란 존재하지 않는다. 무엇인가를 절실하게 필요로 하는 사람이 자신에게 정말로 필요한 것을 찾아내면, 그것은 그에게 주어진 우연이 아니라 그 자신이, 그자신의 욕구와 필요가 그를 거기로 인도한 것이다.</div>
+    <div class="grid3">131p, 새는 알에서 나오려고 투쟁한다.</div>
+  </body>
+</html>
